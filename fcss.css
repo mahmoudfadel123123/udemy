@@ -1,0 +1,375 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Noto Kufi Arabic", "Open Sans", sans-serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.34;
+    background:#f0f2f5;
+    color:white;
+    margin: 0px;
+    padding: 0px;
+
+}
+.container{
+ 
+margin-top: 100px;
+display: flex;
+justify-content: space-around;
+}
+.facebook{
+    color: blue;
+}
+.facebook2{
+    color: black;
+   display: inline-block;
+    width: 400px;
+    margin-left: 100px;
+    font-size: 25px;
+   
+}
+.facebook2 img{
+    margin-left: -35px;
+    margin-bottom: -30px;
+}
+.facebook2.face{
+    padding-left: 20px;
+    
+    border: 5px blue solid;
+}
+.signin{
+text-align: center;
+   background-color: white;
+   height: 330px;
+   width: 396px;
+   border-radius: 8px;
+}
+
+.signin{
+  box-shadow: seashell;
+}
+.login{
+
+color:white;
+background-color: #1877f2;
+cursor: pointer;
+display: inline-block;
+font-size: 20px;
+text-align: center;
+height: 20px;
+
+}
+.signin{
+    align-items: center;
+    padding-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1),
+}
+.signin input{
+    display: inline-block;
+border-color:whitesmoke;
+    height: 40px;
+    
+    width: 364px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    cursor: text;
+    font-size: 15px;
+    margin: auto;
+    padding: 6px 0;
+    border-radius: 4px;
+    margin-top: 10px;
+    direction: ltr;
+    padding-left: 10px;
+
+  
+}
+.login{
+    margin: 10px;
+    
+    width: 300px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 8px;
+    box-sizing: content-box;
+    font-size: 20px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    justify-content: center;
+
+}
+.creataccount{
+    background-color: #42b72a;
+    margin: 10px;
+    width: 200px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 8px;
+    box-sizing: content-box;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    justify-content: center;
+    color:white;
+    margin-left: 55px;
+
+}
+.signin a{
+    text-align: center;
+  }
+  .forgotten a{
+margin: 10px;
+padding-left: 30px;
+
+  }
+ 
+.navbar{
+height: 150px;
+width: 100%;
+background-color: #444;;
+display: inline-block;
+height: 60px;
+
+}
+  
+
+
+.hsoub {
+    display: block;
+    width: 29px;
+    height: 2px;
+float: right;
+margin-top: 20px;
+margin-right: 15px;
+line-height: 1px;
+    background-color: #fffbfb;
+    box-shadow: 0 6px 0 0 #ffffff, 0 -6px 0 0 #efebeb;
+}
+
+
+
+
+
+
+.logo img{
+ float: right;
+ max-height: 36px;
+padding: 10px;
+padding-right: 100px;
+}
+
+
+.section1 {
+    font-family: "Noto Kufi Arabic", "Open Sans", sans-serif;
+    margin-left: 10%;
+    text-align: center;
+    justify-content: center;
+   
+}
+.title{
+    clear: both;
+    margin: 20px;
+    margin-left: 370px;
+    color: black;
+}
+
+.hero{
+    margin-left: 10%;
+direction: rtl;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-around;
+    Justify-content:space-between;
+    width: 80%;
+    height: 490px;
+    
+    
+}
+.hsoub-menu-item-link{
+    color:white;
+    text-decoration: none;
+}
+/* left items for menu*/
+.app{
+margin-left: 200px;
+    font-size: 25px;
+    margin-top: 8px;
+    position: relative;
+    height: 55px;
+    direction: rtl;
+   border: 5px;
+    width: 50%;
+ 
+}
+.app ul {
+    position: absolute;
+}
+
+.app ul li{
+    display: inline-block;
+    
+   
+}
+.app li{
+  padding-left: 60px;
+display: flex;
+}
+.app li:last-child{
+    padding-top: 5px;
+    
+    height: 55px;
+    display: inline-block;
+}
+
+
+
+
+
+ h2{
+    margin-top: 76px;
+    
+}
+
+.relative1{
+    text-align: center;
+    background-color: white;
+    height: 200px;
+    background-image: url(img/besnes.jpg);
+    width: 250px;
+    transition: width 2s ease-in-out;
+  
+}
+.relative1:hover{
+    
+    transform: rotate(60deg);
+}
+
+
+.relative2{
+    text-align: center;
+    
+    height: 200px;
+    position: relative2;
+    background-image: url(img/audio.jpg);
+ 
+  
+width: 150px;
+transition: width 2s;
+}
+
+.relative2:hover{
+   
+width: 250px;
+}
+.relative3{
+    text-align: center;
+    
+    height: 200px;
+    position: relative3;
+    background-image: url(img/design.jpg);
+  
+
+width: 250px;
+}
+
+
+.relative3:hover{
+    transform: skewY(20deg);
+}
+
+.relative4{
+    text-align: center;
+    
+    height: 200px;
+    position: relative;
+  transform-style: preserve-3d;
+ 
+width: 250px;
+transition: all 1s ease-in-out;
+
+}
+.back,.front{
+height: 100%;
+width: 100%;
+display: flex;
+justify-content: center;
+
+position: absolute;
+
+}
+.front{
+    background-image: url(img/design.jpg);
+  z-index: 2;
+    backface-visibility: hidden;
+   
+}
+
+.back{
+  
+    background-image: url(img/design.jpg);
+   
+    z-index: 1;
+    transform: rotateY(180deg);
+    
+}
+
+
+.RELATIVc:hover .relative4{
+    
+    transform: rotateY(180deg);
+    
+}
+
+
+
+.relative5{
+    text-align: center;
+    
+    height: 200px;
+    position: relative5;
+    background-image: url(img/market.jpg);
+  transition-property: all;
+
+width: 250px;
+}
+.relative6{
+    text-align: center;
+    
+    height: 200px;
+    position: relative6;
+    background-image: url(img/program.jpg);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+width: 250px;
+}
+.relative7{
+    text-align: center;
+    
+    height: 200px;
+    position: relative7;
+    background-image: url(img/training.jpg);
+  transform: scale();
+
+width: 250px;
+}
+.relative8{
+    text-align: center;
+    
+    height: 200px;
+    position: relative8;
+    background-image: url(img/translate.jpg);
+ perspective: 10px; 
+
+width: 250px;
+}
+.hsoub-menu-item-link{
+    margin-top: 2px;
+    width: 5px;
+    padding-top: 5px;
+}
